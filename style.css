@@ -1,0 +1,273 @@
+* {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: #e5e5e5;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  max-width: 1280px;
+  height: 50px;
+  margin: 0 auto;
+  padding-left: 94px;
+  padding-right: 90px;
+  background-color: rgba(78, 78, 78, 1);
+  color: rgba(241, 241, 241, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+nav {
+  position: relative;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav-links a {
+  color: rgba(241, 241, 241, 1);
+}
+
+#contact {
+  cursor: not-allowed;
+}
+
+.logo {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+
+.banner {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 60vh;
+  background-image: url(/images/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.shadow {
+  position: absolute;
+  width: 577px;
+  height: 215px;
+  margin-top: 170px;
+  margin-right: 609;
+  margin-bottom: 181px;
+  margin-left: 94px;
+}
+
+.shadow > h1 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.shadow > h2 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+button {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 1);
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  background-color: transparent;
+  width: 164px;
+  height: 41px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
+}
+
+#about {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+}
+
+.about-wrapper {
+  height: 100%;
+  margin: 0px 90px 0px 94px;
+  background-color: #f1f1f1;
+}
+
+.about-wrapper > h1 {
+  width: 386px;
+  height: 35px;
+  color: rgba(21, 45, 65, 1);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.people {
+  display: flex;
+  flex-direction: column;
+}
+
+.people > li {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.person-img {
+  width: 197px;
+  height: 197px;
+}
+
+li:nth-of-type(even) .person-img {
+  display: block;
+  order: 10;
+}
+
+.person-data-left {
+  text-align: letf;
+}
+
+.person-data-right {
+  text-align: right;
+}
+
+.people > h3 {
+  font-weight: bold;
+}
+
+.people > h3,
+p {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.person-data-left,
+.person-data-right {
+  margin: 45px;
+}
+
+#offer {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  background-color: rgba(64, 93, 120, 1);
+  box-sizing: border-box;
+}
+
+#offer h1 {
+  width: 501px;
+  height: 42px;
+  margin-left: 94px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.offer-services {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px 200px;
+  box-sizing: border-box;
+}
+
+.service {
+  width: 198px;
+  height: 193.78px;
+  background-color: rgba(241, 241, 241, 1);
+  padding: 10px;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.service > p {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.ellipse {
+  position: absolute;
+  top: 15px;
+  left: 60px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: rgba(224, 122, 100, 1);
+}
+
+.service:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  width: 100%;
+  max-width: 1280px;
+  height: 71px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(78, 78, 78, 1);
+  box-sizing: border-box;
+}
+
+.rights {
+  margin-left: 94px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.social {
+  color: rgba(255, 255, 255, 1);
+  margin-right: 82px;
+  font-size: 30px;
+}
+
+.social > i {
+  padding: 5px;
+}
